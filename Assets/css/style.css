@@ -1,16 +1,14 @@
-body {
-background-color: #000e16;
-font-family: serif;
-font-size: 80pt;
+
+html {
+  /* gradient background */
+  background: radial-gradient(circle at top left, #dcb7b0, #22c1c3);
 }
-
-
 
 h1,h2 {
   font-style: normal;
   font-weight: bolder;
   font-family: serif;
-  color: white;
+  color: 
   font-size: 30pt
 }
 
