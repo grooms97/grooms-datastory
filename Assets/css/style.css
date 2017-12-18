@@ -1,18 +1,19 @@
+html {
+  /* Example gradient background */
+  background: linear-gradient(to bottom, #ffffff, #99ccff);
+}
+
+
 body {
 font-family: serif;
 font-size: 80pt;
-}
-
-html {
-  /* Example gradient background */
-  background: radial-gradient(circle at top left, #dcb7b0, #22c1c3);
 }
 
 h1,h2 {
   font-style: normal;
   font-weight: bolder;
   font-family: serif;
-  color: white;
+  color: black;
   font-size: 30pt
 }
 
@@ -28,6 +29,7 @@ h1,h2 {
   grid-auto-rows: 100px;
   grid-column-gap: 400px;
 }
+
 
 
 
