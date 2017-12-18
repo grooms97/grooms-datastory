@@ -1,12 +1,16 @@
+
+
 html {
-  /* Example gradient background */
-  background: linear-gradient(to bottom, #ffffff, #99ccff);
+  /* background */
+  background: radial-gradient(circle at top left, #ffffff, #99ccff);
 }
 
 
+/* Typography */
+
 body {
 font-family: serif;
-font-size: 80pt;
+font-size: 20px;
 }
 
 h1 {
@@ -14,7 +18,7 @@ h1 {
   font-weight: bolder;
   font-family: serif;
   color: black;
-  font-size: 30pt
+  font-size: 30px
 }
 
 h2,h3 {
@@ -22,16 +26,9 @@ h2,h3 {
   font-weight: bolder;
   font-family: serif;
   color: black;
-  font-size: 30pt
+  font-size: 20px
 }
 
-/* media */
-
-section#dataviz div.media-wrapper img {
-  width: 540px;
-  float: right;
-  margin-right: 10px;
-}
 
 
 /*Grid*/
@@ -44,8 +41,11 @@ section#dataviz div.media-wrapper img {
   grid-column-gap: 400px;
 }
 
+/* Footer */
 
-
+footer {
+  min-height: 400px;
+}
 
 
 /*Items*/
