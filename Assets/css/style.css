@@ -27,7 +27,7 @@ h1, h2 {
 .container {
     display:grid;
     grid-template-columns: 100% auto;
-    padding: 20em 2em;
+    padding: 15em 2em;
 }
 
 ul {
@@ -44,7 +44,7 @@ ul li {
 .container {
     display:grid;
     grid-template-columns: 45% auto;
-    padding: 8em 20em;
+    padding: 8em 10em;
 }
 
 ul {
