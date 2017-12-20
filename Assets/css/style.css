@@ -1,33 +1,33 @@
-/* fonts */
-@font-face {font-family: DeliciousRoman;src: url(/Delicious-Roman.otf);
-}
+/* General style */
 
 html {
   /* background */
   background: black;
 }
 
+p {
+  margin:5px
+}
+
+/* Typography scheme */
+
 body {
-    font-family: 'DeliciousRoman';
+    font-family: serif;
+    font-size: 19px;
     background:black;
-    margin:10;
-    color:white;
+    color:white
 }
 
-div.preview {
-    font-family: 'DeliciousRoman'
-    color: white
-
+h1, h2 {
+    font-family:serif;
 }
 
-
-
-
+/* Grid styling  */
 
 .container {
     display:grid;
-    grid-template-columns: % auto;
-    padding: 10em 2em;
+    grid-template-columns: 100% auto;
+    padding: 20em 2em;
 }
 
 ul {
@@ -37,20 +37,14 @@ ul {
     grid-template-rows: auto auto
 }
 ul li {
-    padding: 2em;
+    padding: 1em;
     color:black;
-}
-ul li span {
-    display:block;
-    font-size:1.4em;
-    margin-bottom:4em;
-    color: white;
 }
 
 .container {
     display:grid;
-    grid-template-columns: 66% auto;
-    padding: 10em 1em;
+    grid-template-columns: 45% auto;
+    padding: 8em 20em;
 }
 
 ul {
@@ -61,22 +55,7 @@ ul {
     grid-template-rows: repeat(3, auto);
 }
 
-/* media */
-
-.explained-video {
-    position: right;
-    right: 5;
-    bottom: 0;
-    min-width: 200%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-
-}
-
-
-
-
+/* Footer style */
 
 footer {
     background: radial-gradient(circle at top left, #00aced, blue);
