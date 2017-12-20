@@ -2,7 +2,7 @@
 
 html {
   /* background */
-  background: black;
+  background: white;
 }
 
 p {
@@ -27,7 +27,7 @@ h1, h2 {
 .container {
     display:grid;
     grid-template-columns: 100% auto;
-    padding: 20em 2em;
+    padding: 30em 2em;
 }
 
 ul {
@@ -44,7 +44,7 @@ ul li {
 .container {
     display:grid;
     grid-template-columns: 45% auto;
-    padding: 8em 20em;
+    padding: 1em 30em;
 }
 
 ul {
