@@ -44,7 +44,7 @@ ul li {
 .container {
     display:grid;
     grid-template-columns: 45% auto;
-    padding: 8em 10em;
+    padding: 8em 9em;
 }
 
 ul {
